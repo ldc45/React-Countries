@@ -1,5 +1,4 @@
 import React from 'react';
-import Countries from '../components/Countries';
 import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 
@@ -9,7 +8,7 @@ const Home = () => {
             <Logo/>
             <Navigation/>
             <Countries/>
-          
+            <h1>Accueil</h1>
         </div>
     );
 };
